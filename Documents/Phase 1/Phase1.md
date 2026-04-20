@@ -1,6 +1,7 @@
 # Phase 1: Planning and Research
 
 ## Requirement 
+
 ### Functional Requirement
 
 ### Performance Requirement
