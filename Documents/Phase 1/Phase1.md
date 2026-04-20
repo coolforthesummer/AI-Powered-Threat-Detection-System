@@ -11,7 +11,15 @@ The purpose of this program is to assist common users to detect threats
 ## Requirement 
 
 ### Functional Requirement
-The system should be able to dectect common network threats (DDoS, phishing, malware), but we will focus on DDoS Attack first.
+- The system shall accept network traffic data in JSON or CSV format.
+- The system shall preprocess input data before analysis.
+- The system should be able to detect common network threats (DDoS, phishing, malware).
+- The system should identify the type of detected threat (optional).
+- The system should expose REST API endpoints for prediction.
+- The system shall log all analyzed traffic and prediction results.
+- The system shall generate alerts for detected threats.
+- The system shall load and use a trained ML model.
+- The system should identify and respond to suspicious usage patterns.
 
 ### Performance Requirement
 
@@ -23,7 +31,7 @@ The system should be able to dectect common network threats (DDoS, phishing, mal
 
 ## Attributes
 
-## Reference 
+## References
 
 [1]: https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/
 [2]: https://www.cloudflare.com/learning/access-management/phishing-attack/
