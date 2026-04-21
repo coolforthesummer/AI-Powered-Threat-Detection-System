@@ -32,8 +32,24 @@ The purpose of this program is to assist common users to detect threats
 - **Input Format**: The system should accept network traffic data in JSON format
 - 
 ## Dependencies
+- **Python Libraries**:
+  - Flask: for serving the machine learning model via an API.
+  - scikit-learn: for training machine learning models (e.g., decision trees, SVM).
+  - (add more in future)
+  
+- **Datasets**:
+  - CICIDS dataset (for network traffic analysis).
+  - (add more in future)
+
+- **Cloud Infrastructure (Mostly not deployed)**:
+  - AWS EC2: for hosting and computation.
+
 
 ## Constraints
+
+- **Data Availability**: High-quality and labeled network traffic data, especially aiming for specific types of attacks like DDoS.
+- **Latency Constraints**: The system must process and respond to incoming network traffic data in real-time, which may require performance optimizations in both the model and the backend.
+- **Resource Limitations**: If deploying on resource-limited devices, ensure that the machine learning models are optimized for efficiency, with low memory and CPU usage (make sure regularly computer can run this).
 
 ## Attributes
 
