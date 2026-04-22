@@ -19,7 +19,7 @@ By the end of this phase, the team should have:
 
 Pick one main dataset for the first version of the system.
 
-   **CICIDS2018** for intrusion and attack traffic
+   **CICIDS2017** for intrusion and attack traffic
 
 Optional secondary datasets for later comparison(future):
 
