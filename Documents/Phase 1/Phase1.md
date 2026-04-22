@@ -27,6 +27,17 @@ The purpose of this program is to assist common users to detect threats
 
 ### Performance Requirement
 
+- The system shall respond to prediction requests within 1 second.
+- The system should handle at least 50 requests per second.
+- The system shall achieve at least 90% detection accuracy.
+- The system should maintain high recall to minimize missed attacks.
+- The system should support scalability using Docker.
+- The system shall operate within acceptable CPU and memory limits.
+- The system should maintain 99% uptime.
+- The system shall maintain stable performance under moderate load.
+- Model inference shall complete within 200 ms.
+- Logging shall not degrade system performance significantly.
+
 ### External Interface Requirement
 
 - **Input Format**: The system should accept network traffic data in JSON format
